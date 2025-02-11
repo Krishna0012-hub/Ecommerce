@@ -13,6 +13,7 @@ const Item = (props) => {
             <div className='item-price-old'>
                 ${props.old_price}
             </div>
+            <button className="btn btn-primary">Add to Cart</button>
         </div>
       
     </div>
