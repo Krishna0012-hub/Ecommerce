@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
 import th from '../Assets/th.jpg';
 import cart_icon from '../Assets/cart_icon.jpg';
 import './Navbar.css';
+import { ShopContext } from '../Context/ShopContext';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("shop");
+    const { getTotalCartItems} = useContext(ShopContext);
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,7 +53,7 @@ const Navbar = () => {
                         <Link to="/cart" className="position-relative">
                             <img src={cart_icon} alt="Cart" style={{ height: "40px" }} />
                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                0
+                                { getTotalCartItems()}
                             </span>
                         </Link>
                     </div>

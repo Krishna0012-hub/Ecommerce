@@ -51,7 +51,7 @@ let all_product = [
         category: "kid"
     },
     {
-        id:1,
+        id:5,
         name:"striped flutter sleeve overlap",
         image:women_1,
         new_price: 50.00,
@@ -59,7 +59,7 @@ let all_product = [
         category:"women"
     },
     {
-        id:2,
+        id:6,
         name:"striped flutter sleeve overlap",
         image:women_2,
         new_price: 50.00,
@@ -67,7 +67,7 @@ let all_product = [
         category:"women"
     },
     {
-        id:3,
+        id:7,
         name:"striped flutter sleeve overlap",
         image:women_3,
         new_price: 50.00,
@@ -75,7 +75,7 @@ let all_product = [
         category:"women"
     },
     {
-        id:4,
+        id:8,
         name:"striped flutter sleeve overlap",
         image:women_4,
         new_price: 50.00,
@@ -83,7 +83,7 @@ let all_product = [
         category: "women"
     },
     {
-        id:1,
+        id:9,
         name:"striped flutter sleeve overlap",
         image:men_1,
         new_price: 50.00,
@@ -99,7 +99,7 @@ let all_product = [
     //     category:"men"
     // },
     {
-        id:3,
+        id:10,
         name:"striped flutter sleeve overlap",
         image:men_3,
         new_price: 50.00,
@@ -107,7 +107,7 @@ let all_product = [
         category:"men"
     },
     {
-        id:4,
+        id:11,
         name:"striped flutter sleeve overlap",
         image:men_4,
         new_price: 50.00,
