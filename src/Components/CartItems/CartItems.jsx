@@ -35,7 +35,7 @@ const CartItems = () => {
                                     src={remove_icon} 
                                     alt="Remove" 
                                     className="img-fluid cursor-pointer" 
-                                    style={{ maxHeight: '30px' }} 
+                                    style={{ maxHeight: '30px', cursor:'pointer' }} 
                                     onClick={() => removeFromCart(e.id)}
                                 />
                             </div>

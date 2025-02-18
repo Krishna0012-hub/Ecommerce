@@ -4,13 +4,14 @@ import Popular from '../Components/Popular/Popular';
 import Offers from '../Components/Offers/Offers';
 import Newcollection from '../Components/Newcollection/Newcollection';
 import NewsLetter from '../Components/NewsLetter/NewsLetter';
-import ImageSlider from '../Components/ImageSlider/ImageSlider';
+import Banner from '../Components/ImageSlider/Banner';
 
 
 const Shop = () => {
   return (
     <div>
       {/* <ImageSlider/> */}
+      <Banner/>
       <Hero/>
       <Popular/>
       <Offers/>
