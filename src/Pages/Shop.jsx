@@ -15,7 +15,7 @@ const Shop = () => {
       <Hero/>
       <Popular/>
       <Offers/>
-      <Newcollection/>
+      {/* <Newcollection/> */}
       <NewsLetter/>  
     </div>
   );
